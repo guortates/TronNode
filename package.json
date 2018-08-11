@@ -1,0 +1,23 @@
+{
+  "name": "Tron_Lightcycle",
+  "version": "1.0.0",
+  "description": " Multiplayer game based on the Tron movie ",
+  "main": "TronServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node TronServer.js"
+  },
+  "keywords": [
+    "Phaser",
+    "Multiplayer",
+    "game",
+    "Node.js",
+    "socket.io"
+  ],
+  "author": "Guortates Nagini",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
